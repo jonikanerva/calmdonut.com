@@ -1,6 +1,6 @@
 # calmdonut.com
 
 ```
-docker build -t registry.gitlab.com/jonikanerva/dok/calmdonut:latest .
-docker push registry.gitlab.com/jonikanerva/dok/calmdonut:latest
+docker build -t docker.pkg.github.com/jonikanerva/dok8s/calmdonut:latest .
+docker push docker.pkg.github.com/jonikanerva/dok8s/calmdonut:latest
 ```
