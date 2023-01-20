@@ -1,16 +1,82 @@
 * {
-  padding: 0;
-  margin: 0;
+  box-sizing: border-box;
+  padding: 0rem;
+  margin: 0rem;
 }
 
-.image {
-  width: 100vw;
-  height: 100vh;
+html {
+  background: url("bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #eee;
+  font-family: system-ui;
+}
+
+.infobox {
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.container {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(245, 220, 190);
+}
+
+.imagebox {
+  padding-top: 0.5rem;
+}
+
+#image {
+  width: 15rem;
+  border-radius: 10px;
+}
+
+.imagecredits {
+  padding-top: 0.5rem;
   text-align: center;
-  vertical-align: bottom;
-  display: table-cell;
+  font-size: 0.6rem;
+  font-weight: 100;
 }
 
-img {
-  vertical-align: bottom;
+.textbox {
+  font-size: 1.1rem;
+  font-weight: 200;
+  padding-left: 1rem;
+}
+
+.titlebox {
+  display: flex;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 900;
+  text-shadow: 2px 2px 10px #111;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 200;
+  white-space: nowrap;
+  align-self: flex-end;
+  padding-left: 0.5rem;
+  padding-bottom: 0.65rem;
+}
+
+.contactbox {
+  padding-top: 0.4rem;
+  padding-left: 0.3rem;
+  white-space: nowrap;
 }
