@@ -9,6 +9,19 @@ html {
   background-size: cover;
   color: #eee;
   font-family: system-ui;
+  font-size: 16px;
+}
+
+@media (max-width: 30rem) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 23rem) {
+  html {
+    font-size: 10px;
+  }
 }
 
 .infobox {
@@ -22,25 +35,23 @@ html {
   padding-left: 1.5rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
-}
-
-.container {
-  display: flex;
   padding-top: 1rem;
+
 }
 
-.container a {
+.infobox a {
   text-decoration: none;
   color: rgb(245, 220, 190);
 }
 
 .imagebox {
   padding-top: 0.5rem;
+  max-width: 13rem;
 }
 
 #image {
-  max-width: 13rem;
-  max-height: 13rem;
+  max-width: 100%;
+  min-width: 7rem;
   border-radius: 10px;
 }
 
