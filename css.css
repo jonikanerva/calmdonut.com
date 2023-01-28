@@ -12,13 +12,13 @@ html {
   font-size: 16px;
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 35rem) {
   html {
     font-size: 13px;
   }
 }
 
-@media (max-width: 23rem) {
+@media (max-width: 26rem) {
   html {
     font-size: 10px;
   }
@@ -66,11 +66,7 @@ html {
   font-size: 1.1rem;
   font-weight: 200;
   padding-left: 1rem;
-}
-
-.titlebox {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 23rem;
 }
 
 .title {
@@ -87,10 +83,11 @@ html {
   align-self: flex-end;
   padding-bottom: 0.65rem;
   padding-left: 0.3rem;
+  text-shadow: 1px 1px 5px #111;
 }
 
 .contactbox {
   padding-top: 0.4rem;
   padding-left: 0.3rem;
-  white-space: nowrap;
+  line-height: 1.6rem;
 }
